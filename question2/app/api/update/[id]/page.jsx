@@ -10,7 +10,7 @@ export default async function UpdatePost({ params }) {
     }),
     headers: {
       "Content-type": "application/json; charset=UTF-8",
-    }, // ✅ correct closing curly brace, not a parenthesis
+    }, 
     cache: "no-store",
   });
 
